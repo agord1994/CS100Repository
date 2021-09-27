@@ -1,3 +1,5 @@
+#This script will ping server
+
 $ip= $args[0]
 $dateTime= get-date -Format "yyyy-MM-dd-HHmm"
 $fileName=  $dateTime + "-ping.txt" 
